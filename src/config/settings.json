@@ -4,7 +4,7 @@
 		"autoConnect": true,
 		"autoReconnect": true,
 		"reconnectInterval": 10000,
-		"appId": "cdn-moonshine-beta-1",
+		"appId": "ewmci-moonshine-beta-1",
 		"endpoint": "wss://explorer.canadaecoin.ca/websocket",
 	} 
 }

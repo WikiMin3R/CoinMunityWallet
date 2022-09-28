@@ -30,9 +30,9 @@ const _Welcome = ({ onClose = () => null, children = <View /> } = {}) => {
 	if (Platform.OS === "ios") useEffect(() => LayoutAnimation.easeInEaseOut());
 	return (
 		<View style={styles.container}>
-			<Text style={styles.header}>Canada eCoin Mobile</Text>
-			<Text onPress={() => Linking.openURL("https://github.com/Canada-eCoin/cdn-moonshine").catch((e) => console.log(e))} >
-				<Text style={styles.repoLink}>github.com/Canada-eCoin/cdn-moonshine</Text>
+			<Text style={styles.header}>EWMCI CoinMunity Wallet</Text>
+			<Text onPress={() => Linking.openURL("https://github.com/WikiMin3R/CoinMunityWallet").catch((e) => console.log(e))} >
+				<Text style={styles.repoLink}>https://github.com/WikiMin3R/CoinMunityWallet</Text>
 			</Text>
 			<Text style={styles.repoLink}>v{version}</Text>
 
@@ -45,46 +45,32 @@ const _Welcome = ({ onClose = () => null, children = <View /> } = {}) => {
 				{children}
 
 				<Text style={styles.subHeader}>Beta Software</Text>
-				<Text style={styles.text}>Thank you for trying the Canada eCoin experience.  This software is currently in the beta testing phase.  Please refrain from storing any value in this software while not testing it.  Your best long-term storage option is to use a paper wallet.  This software is meant to hold folding money, not life savings.</Text>
+				<Text style={styles.text}>Thank you for trying the CoinMunity experience.  This software is currently in the beta testing phase.  Please refrain from storing any value in this software while not testing it.  Your best long-term storage option is to use a paper wallet.  This software is meant to hold folding money, not life savings.</Text>
 
 				<Text style={styles.subHeader}>Will you join us?</Text>
-				<Text style={styles.text}>If you are technically savvy, we would love to have you join our community.  The Canada eCoin project is a volunteer community project from 2014 that has had zero premine.  Truely owned by those who use/hold it.</Text>
-
-
-				<Text style={styles.text}>Consider joining one of the many Canada eCoin channels and enguaging with the community.  Software like this is only useful when there is a healthy community that participates.</Text>
+				<Text style={styles.text}>Consider joining one of the many EWMCI community channels and engaging with the community.  Software like this is only useful when there is a healthy community that participates.</Text>
 
 				<Text style={styles.text}>Visit our website:</Text>
 				<Text
-					onPress={() => Linking.openURL("https://canadaecoin.ca").catch((e) => console.log(e))}
+					onPress={() => Linking.openURL("https://ewmci.info/coinmunitywallet").catch((e) => console.log(e))}
 					style={[styles.text, { marginTop: 5 }]}
 				>
-					<Text style={styles.semiBoldText}>https://canadaecoin.ca</Text>
+					<Text style={styles.semiBoldText}>https://ewmci.info/coinmunitywallet</Text>
 				</Text>
 
 				<Text style={styles.text}>Find us in our community social channels:</Text>
 				<Text
-					onPress={() => Linking.openURL("https://twitter.com/CanadaeCoin").catch((e) => console.log(e))}
+					onPress={() => Linking.openURL("https://twitter.com/ewmcil").catch((e) => console.log(e))}
 					style={[styles.text, { marginTop: 5 }]}
 				>
-					<Text style={styles.semiBoldText}>Twitter: </Text>@CanadaeCoin
+					<Text style={styles.semiBoldText}>Twitter: </Text>@ewmcil
 				</Text>
+				
 				<Text
-					onPress={() => Linking.openURL("https://discord.gg/Z8DufnQ").catch((e) => console.log(e))}
+					onPress={() => Linking.openURL("mailto:info@ewmci.com?subject=Requesting some help RE: the CoinMunity wallet.").catch((e) => console.log(e))}
 					style={[styles.text, { marginTop: 5 }]}
 				>
-					<Text style={styles.semiBoldText}>Discord:</Text>discord.gg/Z8DufnQ
-				</Text>
-				<Text
-					onPress={() => Linking.openURL("http://keybase.io/team/CanadaeCoin").catch((e) => console.log(e))}
-					style={[styles.text, { marginTop: 5 }]}
-				>
-					<Text style={styles.semiBoldText}>Keybase: </Text>keybase.io/team/CanadaeCoin
-				</Text>
-				<Text
-					onPress={() => Linking.openURL("mailto:support@canadaecoin.ca?subject=Requesting some help RE: the moonshine wallet.").catch((e) => console.log(e))}
-					style={[styles.text, { marginTop: 5 }]}
-				>
-					<Text style={styles.semiBoldText}>Email: </Text>support@canadaecoin.ca
+					<Text style={styles.semiBoldText}>Email: </Text>info@ewmci.com
 				</Text>
 			</View>
 			<Button text="continue" style={{marginVertical: 30}} onPress={onClose} />

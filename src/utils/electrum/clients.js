@@ -1,11 +1,11 @@
 class Clients {
 	constructor() {
-		this.coin = "canadaecoin";
+		this.coin = "bitcoin";
 		this.mainClient = {
-			canadaecoin: false,
-			auroracoin: false,
-			egulden: false,
 			bitcoin: false,
+			auroracoin: false,
+			canadaecoin: false,
+			egulden: false,
 			litecoin: false
 
 		};

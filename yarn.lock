@@ -1511,10 +1511,10 @@
   resolved "https://registry.yarnpkg.com/@react-native-community/eslint-plugin/-/eslint-plugin-1.1.0.tgz#e42b1bef12d2415411519fd528e64b593b1363dc"
   integrity sha512-W/J0fNYVO01tioHjvYWQ9m6RgndVtbElzYozBq1ZPrHO/iCzlqoySHl4gO/fpCl9QEFjvJfjPgtPMTMlsoq5DQ==
 
-"@react-native-community/netinfo@^5.9.6":
-  version "5.9.7"
-  resolved "https://registry.yarnpkg.com/@react-native-community/netinfo/-/netinfo-5.9.7.tgz#769c6b306ea6bbaa1c4a3fffdd183d0cfc30ed7e"
-  integrity sha512-NAkkT68oF+M9o6El2xeUqZK7magPjG/tAcEbvCbqyhlh3yElKWnI1e1vpbVvFXzTefy67FwYFWOJqBN6U7Mnkg==
+"@react-native-community/netinfo@^6.0.2":
+  version "6.2.1"
+  resolved "http://10.10.10.10:4873/@react-native-community%2fnetinfo/-/netinfo-6.2.1.tgz#212487d84a3476268e278f4c017ff5c7f37e69c0"
+  integrity sha512-742sh+NMbPo59MaLRXBWwkT5K6HQPrmoS0pg0z9QuXshXieQIOTkqEEDMkQZS0QnS8fPFr8MxMPw/TAxH9b8Ig==
 
 "@react-native-community/slider@^3.0.3":
   version "3.0.3"
@@ -3414,6 +3414,11 @@ ee-first@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
+
+ejson@^2.1.2:
+  version "2.2.2"
+  resolved "http://10.10.10.10:4873/ejson/-/ejson-2.2.2.tgz#095bf356a57295784cada6ff19b2b2abc70e4f9d"
+  integrity sha512-Wc/PZH7WMxuM6eBpAuD9+IX98q27hlBTD8nvhh7UyGy22eB9qTRG0oAzlviicADh9VVxYp+/onTyfYZC3DhI5w==
 
 "electrum-client@https://github.com/coreyphillips/node-electrum-client":
   version "0.0.6"
@@ -6969,6 +6974,11 @@ performance-now@^2.1.0:
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
   integrity sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=
 
+performance-now@~0.2.0:
+  version "0.2.0"
+  resolved "http://10.10.10.10:4873/performance-now/-/performance-now-0.2.0.tgz#33ef30c5c77d4ea21c5a53869d91b56d8f2555e5"
+  integrity sha1-M+8wxcd9TqIcWlOGnZG1bY8lVeU=
+
 phin@^2.9.1:
   version "2.9.3"
   resolved "https://registry.yarnpkg.com/phin/-/phin-2.9.3.tgz#f9b6ac10a035636fb65dfc576aaaa17b8743125c"
@@ -7232,6 +7242,13 @@ querystringify@^2.1.1:
   resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.2.0.tgz#3345941b4153cb9d082d8eee4cda2016a9aef7f6"
   integrity sha512-FIqgj2EUvTa7R50u0rGsyTftzjYmv/a3hO345bZNrqabNqjtgiDMgmo4mkUjd+nzU5oF3dClKqFIPUKybUyqoQ==
 
+raf@~3.1.0:
+  version "3.1.0"
+  resolved "http://10.10.10.10:4873/raf/-/raf-3.1.0.tgz#5d84bf81b57f979f8c492be08378c538bb4eecfc"
+  integrity sha1-XYS/gbV/l5+MSSvgg3jFOLtO7Pw=
+  dependencies:
+    performance-now "~0.2.0"
+
 randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/randombytes/-/randombytes-2.1.0.tgz#df6f84372f0270dc65cdf6291349ab7a473d4f2a"
@@ -7259,6 +7276,17 @@ react-addons-shallow-compare@15.6.2:
   dependencies:
     fbjs "^0.8.4"
     object-assign "^4.1.0"
+
+react-ddp@^1.1.11:
+  version "1.1.11"
+  resolved "http://10.10.10.10:4873/react-ddp/-/react-ddp-1.1.11.tgz#f68c7547b36779884be0442e56dd0add8d66189b"
+  integrity sha1-9ox1R7NneYhL4EQuVt0K3Y1mGJs=
+  dependencies:
+    ejson "^2.1.2"
+    hash.js "^1.0.3"
+    reactive-var "^1.0.7"
+    trackr "^2.0.2"
+    wolfy87-eventemitter "^4.3.0"
 
 react-devtools-core@^4.6.0:
   version "4.8.2"
@@ -7391,10 +7419,10 @@ react-native-typography@^1.4.1:
   resolved "https://registry.yarnpkg.com/react-native-typography/-/react-native-typography-1.4.1.tgz#2d05cb5935a2f7fdb6b43bbde93d60f1324578e3"
   integrity sha512-dc9Zfs4jUdq4ygx4/KwO6jKTERBu6cRrfPJGntw/pA+D6BMjlWfMNuhZ/69vf4Zpsnt9s4AGe+Z/V1QFYaCXAA==
 
-react-native-v8@0.63.3-patch.0:
-  version "0.63.3-patch.0"
-  resolved "https://registry.yarnpkg.com/react-native-v8/-/react-native-v8-0.63.3-patch.0.tgz#96e49f6a474f6d2e0e704e28a0d3c20e89c6a3fc"
-  integrity sha512-Z8oJ2aJt1T6JaObMlLAuvdNEFHNWwhpmx4XftdtJHWTusTDO0FOiVJ6aUwm9yJC2Tqq6m3ByX+dV1xH/6U5h9Q==
+react-native-v8@0.63.4-patch.0:
+  version "0.63.4-patch.0"
+  resolved "http://10.10.10.10:4873/react-native-v8/-/react-native-v8-0.63.4-patch.0.tgz#9f0a0eae710893d768de38caac4648d9d2b867c7"
+  integrity sha512-5lbwL1yfPrZKIA89sNTpjKe+fa89BT8sPNg8e4JjVKYl2iSaZRnF30shsTbM7OVDryaecZabUoh+0kGvkDQqSA==
   dependencies:
     v8-android "~8.84.0"
 
@@ -7412,10 +7440,10 @@ react-native-vector-icons@^7.0.0:
     prop-types "^15.7.2"
     yargs "^15.0.2"
 
-react-native@^0.63.3:
-  version "0.63.3"
-  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.63.3.tgz#4a7f6540e049ff41810887bbd1125abc4672f3bf"
-  integrity sha512-71wq13uNo5W8QVQnFlnzZ3AD+XgUBYGhpsxysQFW/hJ8GAt/J5o+Bvhy81FXichp6IBDJDh/JgfHH2gNji8dFA==
+react-native@^0.63.4:
+  version "0.63.4"
+  resolved "http://10.10.10.10:4873/react-native/-/react-native-0.63.4.tgz#2210fdd404c94a5fa6b423c6de86f8e48810ec36"
+  integrity sha512-I4kM8kYO2mWEYUFITMcpRulcy4/jd+j9T6PbIzR0FuMcz/xwd+JwHoLPa1HmCesvR1RDOw9o4D+OFLwuXXfmGw==
   dependencies:
     "@babel/runtime" "^7.0.0"
     "@react-native-community/cli" "^4.10.0"
@@ -7478,6 +7506,13 @@ react@^17.0.1:
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
+
+reactive-var@^1.0.7:
+  version "1.0.7"
+  resolved "http://10.10.10.10:4873/reactive-var/-/reactive-var-1.0.7.tgz#2f0fad7eb72969e2d3dcd71413b15b4266e84a38"
+  integrity sha1-Lw+tfrcpaeLT3NcUE7FbQmboSjg=
+  dependencies:
+    trackr "^2.0.2"
 
 read-pkg-up@^2.0.0:
   version "2.0.0"
@@ -8630,6 +8665,13 @@ tr46@^2.0.2:
   dependencies:
     punycode "^2.1.1"
 
+trackr@^2.0.2:
+  version "2.0.2"
+  resolved "http://10.10.10.10:4873/trackr/-/trackr-2.0.2.tgz#ee38b13b580b30df5e8e0270d1cf3d0212c4745e"
+  integrity sha1-7jixO1gLMN9ejgJw0c89AhLEdF4=
+  dependencies:
+    raf "~3.1.0"
+
 tsconfig-paths@^3.9.0:
   version "3.9.0"
   resolved "https://registry.yarnpkg.com/tsconfig-paths/-/tsconfig-paths-3.9.0.tgz#098547a6c4448807e8fcb8eae081064ee9a3c90b"
@@ -9046,6 +9088,11 @@ wif@^2.0.1, wif@^2.0.6:
   integrity sha1-CNP1IFbGZnkplyb63g1DKudLRwQ=
   dependencies:
     bs58check "<3.0.0"
+
+wolfy87-eventemitter@^4.3.0:
+  version "4.3.0"
+  resolved "http://10.10.10.10:4873/wolfy87-eventemitter/-/wolfy87-eventemitter-4.3.0.tgz#6497396c95e74359f06b6e35409339318d8d964f"
+  integrity sha1-ZJc5bJXnQ1nwa241QJM5MY2Nlk8=
 
 word-wrap@^1.2.3, word-wrap@~1.2.3:
   version "1.2.3"

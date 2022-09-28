@@ -1,4 +1,8 @@
 {
+  "artbyte": [
+    {"host": "elec-seeder-one.artbytecoin.org", "ssl": 50002, "tcp": 50001},
+    {"host": "elec-seeder-two.artbytecoin.org", "ssl": 50002, "tcp": 50001},
+  ],
   "bitcoin": [
     {"host": "hodlers.beer", "ssl": 50002, "tcp": 50001},
     {"host": "de.poiuty.com", "ssl": 50002, "tcp": 50001},
@@ -6,10 +10,6 @@
     {"host": "f.keff.org", "ssl": 50002, "tcp": 50001},
     {"host": "electrumx.dev", "ssl": 50002, "tcp": 50001},
     {"host": "blkhub.net", "ssl": 50002, "tcp": 50001}
-  ],
-  "litecoin": [
-    {"host": "electrum-ltc.bysh.me", "ssl": 50002, "tcp": 50001},
-    {"host": "electrum.ltc.xurious.com", "ssl": 50002, "tcp": 50001}
   ],
   "canadaecoin": [
     {"host": "woolloomooloo.ecoincore.com", "ssl": 34333, "tcp": 34332 },
@@ -19,14 +19,72 @@
     {"host": "mumbai.ecoincore.com", "ssl": 34333, "tcp": 34332 },
     {"host": "lenoir.ecoincore.com", "ssl": 34333, "tcp": 34332 }
   ],
+  "digitalcoin": [
+    {"host": "failover.dgc.ewmcx.biz", "ssl": 50002, "tcp": 50001},
+    {"host": "electrumx.dgc.ewmcx.org", "ssl": 50002, "tcp": 50001},
+  ],
   "auroracoin": [
     {"host": "lenoir.ecoincore.com", "ssl": 12343, "tcp": 12342 },
     {"host": "electrumx.aur.ewmcx.info", "ssl": 50002, "tcp": 50001 },
     {"host": "failover.aur.ewmcx.biz", "ssl": 50002, "tcp": 50001 }
   ],
+  "globalboost": [
+    {"host": "bsty-bkp.coinmunity.gold", "ssl": 50012, "tcp": 50001},
+    {"host": "bsty-main.coinmunity.gold", "ssl": 50012, "tcp": 50001},
+  ],
+  "infiniloop": [
+    {"host": "il8p.electrumx.transcenders.name", "ssl": 50002, "tcp": 50001},
+  ],
   "egulden": [
     {"host": "holland.ecoincore.com", "ssl": 11017, "tcp": 11016 },
     {"host": "lenoir.ecoincore.com", "ssl": 11017, "tcp": 11016 },
     {"host": "electrum2.egulden.org", "ssl": 50002, "tcp": 50001 }
-  ]
+  ],
+  "komodo": [
+    {"host": "electrum3.cipig.net", "ssl": 20001, "tcp": 50001},
+  ],
+  "litecoin": [
+    {"host": "backup.electrum-ltc.org", "ssl": 443, "tcp": 50001},
+    {"host": "ltc.rentonisk.com", "ssl": 50002, "tcp": 50001},
+    {"host": "electrum-ltc.bysh.me", "ssl": 50002, "tcp": 50001},
+    {"host": "electrum.ltc.xurious.com", "ssl": 50002, "tcp": 50001}
+  ],
+  "litecoincash": [
+    {"host": "electrum1.litecoinca.sh", "ssl": 50010, "tcp": 50001},
+  ],
+  "lynx": [
+    {"host": "electrum5.getlynx.io", "ssl": 50002, "tcp": 50001},
+    {"host": "electrum6.getlynx.io", "ssl": 50002, "tcp": 50001},
+    {"host": "electrum7.getlynx.io", "ssl": 50002, "tcp": 50001},
+    {"host": "electrum8.getlynx.io", "ssl": 50002, "tcp": 50001},
+    {"host": "electrum9.getlynx.io", "ssl": 50002, "tcp": 50001},
+  ],
+  "novacoin": [
+    {"host": "electrumx.nvc.ewmcx.org", "ssl": 50002, "tcp": 50001},
+    {"host": "failover.nvc.ewmcx.biz", "ssl": 50002, "tcp": 50001},
+  ],
+  "primecoin": [
+    {"host": "electrumx.gemmer.primecoin.org", "ssl": 50002, "tcp": 50001},
+    {"host": "electrumx.mainnet.primecoin.org", "ssl": 50002, "tcp": 50001},
+  ],
+  "terracoin": [
+    {"host": "electrum.terracoin.io", "ssl": 50002, "tcp": 50001},
+    {"host": "failover.trc-uis.ewmcx.biz", "ssl": 50006, "tcp": 50001},
+    {"host": "electrum.southofheaven.ca", "ssl": 50006, "tcp": 50001},
+  ],
+  "unitus": [
+    {"host": "failover.trc-uis.ewmcx.biz", "ssl": 50002, "tcp": 50001},
+    {"host": "electrumx.uis.ewmcx.info", "ssl": 50002, "tcp": 50001},
+  ],
+  "unobtanium": [
+    {"host": "uno-bkp.coinmunity.gold", "ssl": 50002, "tcp": 50001},
+    {"host": "uno-main.coinmunity.gold", "ssl": 50002, "tcp": 50001},
+  ],
+  "vcash": [
+    {"host": "failover.xvc.ewmcx.biz", "ssl": 50002, "tcp": 50001},
+  ],
+  "zetacoin": [
+    {"host": "zeta-seed-d.zetacoin.network", "ssl": 50012, "tcp": 50011},
+    {"host": "zeta-seed-a.zetacoin.info", "ssl": 50012, "tcp": 50011},
+  ],
 }

@@ -136,18 +136,18 @@ def getPassword(String currentUser, String keyChain) {
 
 // release store file is the upload key submitted to google for the play store.  Hardcoded here are
 // koad's keys used to upload to 
-def releaseKeyAlias = "canadaecoin-upload-key";
-def releaseStoreFileName = "canadaecoin.keystore";
+def releaseKeyAlias = "ewmciwallet";
+def releaseStoreFileName = "ewmciwallet.keystore";
 def hasReleaseStoreFile = file(releaseStoreFileName).exists();
 
 def releaseStoreFile = file('debug.keystore');
 if(hasReleaseStoreFile) {
     releaseStoreFile = file(releaseStoreFileName)
 }
-def pass = "ZWZh0ZTE5NjJmMTYZTI4ODY4OG0ZTE5NjJmMTYUwM2Y0"; //Add password here to override the default keychain password
+def pass = ""; //Add password here to override the default keychain password
 if(Os.isFamily(Os.FAMILY_MAC) && hasReleaseStoreFile && pass == "") {
     def currentUser = System.getProperty("user.name");
-    def keyChainId = "moonshine_android_keystore";
+    def keyChainId = "ewmci_android_keystore";
     pass = getPassword(currentUser, keyChainId);
 }
 
@@ -168,7 +168,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "org.canadaecoin.moonshine"
+        applicationId "org.ewmci.mobile"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 69

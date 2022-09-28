@@ -1,4 +1,4 @@
-package com.moonshine;
+package com.ewmci;
 
 import com.facebook.react.ReactActivity;
 import com.zoontek.rnbootsplash.RNBootSplash;
@@ -18,6 +18,6 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "moonshine";
+    return "ewmci";
   }
 }

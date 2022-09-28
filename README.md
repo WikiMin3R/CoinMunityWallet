@@ -1,17 +1,23 @@
 <img align="left" width="80" height="80" src="src/assets/logo/main_icon.png" alt="Canada eCoin mobile wallet">
 
-# Canada eCoin mobile wallet.
+# CoinMunity mobile wallet.
 
-This repo holds the official Canada eCoin mobile wallet.  This wallet is a thin-client; meaning it does not download the entire chain, instead, it connects to known electrum servers.
+This repo holds the EWMCI alliance mobile wallet, called CoinMunity. 
 
-Website: [canadaecoin.ca](https://canadaecoin.ca)
+In the wake of the Coinomi mass delisting, a handful of projects bound together to create a wallet in which is open-source and truely custodian free;  especially the configuration custodian.
 
-The Canada eCoin mobile wallet is a fork of the [Moonshine wallet by Corey Phillips](https://github.com/coreyphillips/moonshine/), extended to use explorer.canadaecoin.ca as it's source for price feeds.
+Learn to recognise the custodian, and you will have a better chance of avoiding them. -> https://ecoincore.com/initiatives/custodial-awareness
+
+This wallet is a thin-client; meaning it does not download the entire chain, instead, it connects to known electrum servers.
+
+Website: [coinmunity.us](https://coinmunity.us)
+
+The CoinMunity mobile wallet is a fork of the [Moonshine wallet by Corey Phillips](https://github.com/coreyphillips/moonshine/)
 
 <p style="align-items: center">
   <img src="./src/assets/screenshots/send_transaction.png" width="30%" alt="Send Transaction" />
-  <img src="./src/assets/screenshots/cdn-moonshine-2021-11-23.gif" width="30%" alt="Main"/> 
-  <img src="./src/assets/screenshots/receive_transaction.png" width="30%" alt="Receive Transaction" />
+  <img src="./src/assets/screenshots/main.png" width="30%" alt="Main"/> 
+  <img src="./src/assets/screenshots/transactions_list.png" width="30%" alt="Receive Transaction" />
 </p>
 
 > Moonshine is a homebrewed, open-source, non-custodial, Bitcoin/Litecoin Electrum wallet for iOS & Android.

@@ -1,4 +1,4 @@
-package com.moonshine;
+package com.ewmci;
 
 import android.content.Intent;
 import android.os.Bundle;

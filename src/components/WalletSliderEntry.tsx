@@ -166,7 +166,7 @@ const _WalletSliderEntry = ({ walletId = "bitcoin", wallet = { wallets: {}, sele
 
 	const sortedBalances = (walletId)=> {
 		if(!walletId) return [];
-		console.log(walletId)
+		console.log({walletId})
 		let balances = {...wallet.wallets[walletId].confirmedBalance};
 				
 		Object.keys(balances).filter((hyper)=>{
@@ -212,10 +212,10 @@ const _WalletSliderEntry = ({ walletId = "bitcoin", wallet = { wallets: {}, sele
 				
 				<View style={styles.scrollViewContent}>
 
-
 					{Object.keys(sortedBalances(walletId)).map((coin, i) => {
 						if (!displayTestnet && coin.toLowerCase().includes("testnet")) return;
 						if (coin.toLowerCase().includes("timestamp")) return;
+						if (!availableCoins.includes(coin.toLowerCase())) return;
 
 						let seed = wallet.wallets[walletId]
 						let balance = seed.confirmedBalance[coin];
@@ -257,7 +257,6 @@ const _WalletSliderEntry = ({ walletId = "bitcoin", wallet = { wallets: {}, sele
 					<TouchableOpacity onPress={delWallet} style={styles.deleteButton}>
 						<Text style={[styles.text, { color: colors.danger }]}>Delete Wallet</Text>
 					</TouchableOpacity>}
-
 
 				</View>
 				

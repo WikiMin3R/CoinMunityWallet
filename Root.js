@@ -59,7 +59,7 @@ const Root = () => {
 			<PersistGate
 				loading={<LinearGradient 
 					style={{ flex: 1 }} 
-					colors={["#FF45bf", "#7931ab", "#FF31ab", "#68219b", "#FF1993", "#59158e", "#FFF28b"]} 
+					colors={["#222222", "#222222"]} 
 					start={{x: 0.0, y: 0.0}} 
 					end={{x: 1.0, y: 1.0}} 
 				/>}

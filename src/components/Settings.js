@@ -825,13 +825,13 @@ class Settings extends PureComponent {
 
 	requestHelp = () => {
 		try {
-			Linking.openURL("mailto:support@canadaecoin.ca?subject=Requesting Some Help (cdn-moonshine)").catch((e) => console.log(e));
+			Linking.openURL("mailto:info@ewmci.com?subject=Requesting Some Help (CoinMunity Wallet)").catch((e) => console.log(e));
 		} catch {}
 	};
 
 	visitWebsite = () => {
 		try {
-			Linking.openURL("https://canadaecoin.ca").catch((e) => console.log(e));
+			Linking.openURL("https://ewmci.info").catch((e) => console.log(e));
 		} catch {}
 	};
 
@@ -907,7 +907,7 @@ class Settings extends PureComponent {
 						<TouchableOpacity activeOpacity={1} onPress={Keyboard.dismiss} style={styles.container}>
 
 
-							<Text style={[styles.version]}>{`CDN Moonshine Version: ${version}\nby the Canada eCoin developers\nfind us on keybase.io/team/CanadaeCoin`}</Text>
+							<Text style={[styles.version]}>{`CoinMunity Version: ${version}`}</Text>
 
 							<View style={{ alignItems: "center", justifyContent: "center" }}>
 								<View style={[styles.header]}>
@@ -1100,7 +1100,7 @@ class Settings extends PureComponent {
 							</View>
 
 							<SettingGeneral
-								value={`Need Some Help?\nsupport@canadaecoin.ca`}
+								value={`Need Some Help?\ninfo@ewmci.com`}
 								col1Image={<FontAwesome name="support" size={32} />}
 								onPress={this.requestHelp}
 								valueStyle={{ fontSize: 14, textAlign: "center", fontWeight: "bold" }}
@@ -1108,7 +1108,7 @@ class Settings extends PureComponent {
 							/>
 
 							<SettingGeneral
-								value={'The Canada eCoin Project\ncanadaecoin.ca'}
+								value={'East-West Magnate Cryptocurrency Experts\newmci.info'}
 								col1Image={<MaterialCommunityIcons name="web" size={32} />}
 								onPress={this.visitWebsite}
 								valueStyle={{ fontSize: 14, textAlign: "center", fontWeight: "bold" }}
