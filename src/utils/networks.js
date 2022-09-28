@@ -251,19 +251,19 @@ const availableCoins = [
     "lynx",
 
     // under this line, not tested.
-    "artbyte",
-    "novacoin",
-    "primecoin",
-    "terracoin",
-    "unitus",
-    "vcash",
-    "zetacoin"
+    // "artbyte",
+    // "novacoin",
+    // "primecoin",
+    // "terracoin",
+    // "vcash",
 
     // under this line, fails tests.
     // "digitalcoin",  // the transaction was rejected by network rules.  64: premature-version2-tx  [0200000001f9297b9624f0f472b24c37454559f7a3bc369908ca50a79223926a939e6fdde9000000006b483045022100e74eaae3cf251270932a2d9783ea7785af2a511d5cba16b52e0b2a1b0d6f5733022026ece9d8134b8b9f4e99e2998d85129e6733c63c64913097c28ee84fbcf42cb701210240ee2c87cd92cf867777a89abdc8525c9818255075a86bd6a34a25cffac046dfffffffff0176403ec4010000001976a914e39c1b6f69acb5cc03aacb7c3c433a6fd18c98a688ac00000000]
     // "infiniloop",	// the transaction was rejected by network rules 
     // "komodo", 		// the transaction was rejected by network rules 
     // "unobtanium",	// the transaction was rejected by network rules 64: version // 02000000019672c8d33f86db2242352f8db8176d05a21a9045cdd3fdb4075e6c28652a455c000000006a473044022067bc4a2577fd4f26c225d61398a5ae657f1483961099c45a971cd3463668f55f02207fb6393fe1876fdf2f5924049b0a2452f4853cd0f2c5d040f061462acc9e8657012103c0744215740f28dea38a0ed904c4251cabfd3ce32cf2da6b72c3486082d4da68ffffffff01331af400000000001976a914e39c1b6f69acb5cc03aacb7c3c433a6fd18c98a688ac00000000
+    // "unitus", 		// the transaction was rejected by network rules 
+    // "zetacoin" 		// Upgraded zetacoin -- needs new chainparams!
     
     // under this line, has other than 8 decimals.
     // "litecoincash", 	// 7 decimals
